@@ -32,8 +32,9 @@ main{
   }
 
   .nutrition-list div{
-    width: 23rem;
+    width: 39rem;
     justify-content: space-between;
+    padding-left: 17px;
   }
 
 
@@ -44,6 +45,10 @@ main{
   .recipe-info{
     padding: 30px;
     padding-top: 5px;
+  }
+
+  .nutrition-list div{
+    width: 19rem;
   }
 }
 
@@ -92,6 +97,7 @@ hr{
   margin: 0px;
   margin-bottom:13px;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .prep-list{
@@ -157,18 +163,19 @@ h2{
 }
 
 .nutrition-list{
-  list-style-type: none;
-  padding: 0;
+  padding-top: 14px;
 }
 
-.nutrition-list div{
+.nutrition-content{
   display: flex;
   justify-content: space-between;
   font-weight: 500;
   color: hsl(30, 10%, 34%);
-  padding-right: 100px;
   padding-left: 30px;
+
 }
+
+
 
 .nutrition-list hr{
   opacity: 40%;
